@@ -1,0 +1,273 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    padding-right: 320px;
+    padding-bottom: 10px;
+    
+}
+
+.logo img {
+    display: block;
+    width: 200px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+    color: #635BBD;
+}
+
+.section1 h2 {
+    text-align: center;
+}
+.section1 h3 {
+    padding-left: 20px;
+    max-width: 1650px;
+    padding-left: 80px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #635BBD;
+    text-align: center;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color:  #374151;
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+p {
+    color: #374151;
+}
+
+.buttons1 {
+  display: flex;
+  gap: 100px;
+  padding-top: 35px;
+  padding-left: 150px;
+}
+
+.buttons1 button {
+  padding: 22px 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: white;
+  font-size: 16px;
+}
+
+#filled-btn {
+  background: linear-gradient(to bottom, #02478b, #0e6fd1);
+  color: white;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+
+    padding: 60px 80px;
+    align-items: start;
+}
+
+#h2-section2 {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+#p1-section2 {
+    padding-left: 0;
+    font-size: 18px;
+    max-width: 800px;
+    text-align: justify;
+}
+
+#p2-section2 {
+    padding-left: 0;
+    font-size: 18px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.c50plus {
+    width: 220px;
+    height: 160px;
+
+    border: 1px solid #333;
+    border-radius: 20px;
+
+    background: #2563EB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+
+    position: relative;
+    left: 50px;
+    top: 80px;
+}
+
+.c50plus strong {
+    font-size: 24px;
+    
+}
+
+.c50plus span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+ul li {
+    font-weight: 600;
+    color: #374151;
+}
+
+.section3-image {
+    width: 910px;
+    height: 520px;
+
+    margin: 30px auto 0;
+
+    background-image: url("/img/image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    pointer-events: none;
+    user-select: none;
+}
+
+.section3 h3{
+    max-width: 1600px;
+    text-align: center;
+}
+
+
+.section3-text {
+    display: block;
+    width: 100%;
+    margin: 30px auto 0;
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #343A46;
+}
+
+.section3-text span {
+    display: block;
+}
+
+.section4 {
+    padding: 60px 40px;
+}
+
+.section4 h2 {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    max-width: 1200px;
+    margin: 40px auto 0;
+}
+
+.card {
+    min-height: 220px;
+    padding: 0px 25px;
+
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 0 5 25px;
+    padding: 0;
+}
+
+/* 1 */
+.card:nth-child(1) {
+    background: #2698A8;
+}
+
+/* 2 */
+.card:nth-child(2) {
+    background: #F47F9A;
+}
+
+/* 3 */
+.card:nth-child(3) {
+    background: #F26B0A;
+}
+
+
+.card:nth-child(3) h3 {
+    color: white;
+    justify-content: center;
+}
+.card:nth-child(3) p {
+    color: white;
+
+}
+
+/* 4 */
+.card:nth-child(4) {
+    background: #35A04C;
+}
+
+/* 5 */
+.card:nth-child(5) {
+    background: #8D959B;
+}
+
+/* 6 */
+.card:nth-child(6) {
+    background: #2998ED;
+    justify-content: center;
+}
+
+.card:nth-child(1) h3,
+.card:nth-child(2) h3,
+.card:nth-child(4) h3,
+.card:nth-child(5) h3,
+.card:nth-child(6) h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    justify-content: center;
+}
+
+.card:nth-child(1) p,
+.card:nth-child(2) p,
+.card:nth-child(4) p,
+.card:nth-child(5) p,
+.card:nth-child(6) p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}

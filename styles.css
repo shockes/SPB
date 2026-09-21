@@ -212,17 +212,17 @@ ul li {
     padding: 0;
 }
 
-/* 1 */
+
 .card:nth-child(1) {
     background: #2698A8;
 }
 
-/* 2 */
+
 .card:nth-child(2) {
     background: #F47F9A;
 }
 
-/* 3 */
+
 .card:nth-child(3) {
     background: #F26B0A;
 }
@@ -231,23 +231,24 @@ ul li {
 .card:nth-child(3) h3 {
     color: white;
     justify-content: center;
+    font-size: 600;
 }
 .card:nth-child(3) p {
     color: white;
 
 }
 
-/* 4 */
+
 .card:nth-child(4) {
     background: #35A04C;
 }
 
-/* 5 */
+
 .card:nth-child(5) {
     background: #8D959B;
 }
 
-/* 6 */
+
 .card:nth-child(6) {
     background: #2998ED;
     justify-content: center;
@@ -285,7 +286,7 @@ ul li {
     }
 
 
-    /* SECTION 1 */
+
     .section1 h3 {
         padding-left: 30px;
         padding-right: 30px;
@@ -300,7 +301,6 @@ ul li {
     }
 
 
-    /* SECTION 2 */
     .section2 {
         grid-template-columns: 1fr;
         padding: 50px 30px;
@@ -313,7 +313,6 @@ ul li {
     }
 
 
-    /* SECTION 3 */
     .section3-image {
         width: 100%;
         height: 400px;
@@ -324,7 +323,6 @@ ul li {
     }
 
 
-    /* SECTION 4 */
     .cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -332,10 +330,8 @@ ul li {
 }
 
 
-/* МОБИЛЬНЫЕ */
 @media (max-width: 600px) {
 
-    /* HEADER */
     .header {
         flex-direction: column;
         gap: 20px;
@@ -358,7 +354,6 @@ ul li {
     }
 
 
-    /* SECTION 1 */
     .section1 {
         padding-left: 20px;
         padding-right: 20px;
@@ -390,7 +385,6 @@ ul li {
     }
 
 
-    /* SECTION 2 */
     .section2 {
         display: flex;
         flex-direction: column;
@@ -419,7 +413,6 @@ ul li {
     }
 
 
-    /* SECTION 3 */
     .section3 {
         padding-left: 20px;
         padding-right: 20px;
@@ -438,7 +431,6 @@ ul li {
     }
 
 
-    /* SECTION 4 */
     .section4 {
         padding-left: 20px;
         padding-right: 20px;
